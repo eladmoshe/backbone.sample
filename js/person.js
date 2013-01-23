@@ -14,6 +14,14 @@ $(window).ready(function() {
 
       urlRoot: function() {
          return "/students/";
+      },
+
+      update:function(options){
+         var that = this;
+         _(options).each(function(value, key){
+            that.set(key, value);
+         });
+         this.save();
       }
    });
 
@@ -27,7 +35,7 @@ $(window).ready(function() {
          console.log(model.get("name"), ":", model.get("favorite_color"));
 
          //set the favourite color to black, we could do it in the "save" parameters as well on next line
-         person.set("favorite_color", "black");
+         person.set("favorite_color", "grey");
 
          //save to the server
          person.save({}, {

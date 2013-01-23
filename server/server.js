@@ -12,9 +12,9 @@ var
    people =
       [
          {id: 0, name: "Bob", age: 47, favorite_color: "blue"},
-         {id: 1, name: "Sally", age: 30, favorite_color: "mauve"},
-         {id: 2, name: "Tommy", age: 13, favorite_color: "black"},
-         {id: 3, name: "Chaz", age: 26, favorite_color: "plaid"},
+         {id: 1, name: "Sally", age: 30, favorite_color: "light blue"},
+         {id: 2, name: "Tommy", age: 13, favorite_color: "purple"},
+         {id: 3, name: "Chaz", age: 26, favorite_color: "brown"},
          {id: 4, name: "Tim", age: 67, favorite_color: "yellow"},
          {id: 5, name: "John", age: 19, favorite_color: "red"},
          {id: 6, name: "Bertha", age: 35, favorite_color: "white"},
