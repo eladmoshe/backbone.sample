@@ -1,0 +1,9 @@
+{
+    "name": "httpServer",
+    "version": "0.0.1",
+    "dependencies": {
+        "connect": "*",
+        "express": "*",
+        "underscore": "*"
+    }
+}
