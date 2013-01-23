@@ -5,7 +5,6 @@ if (process.argv.length < 2) {
 
 var
    express = require("express"),
-   _ = require("underscore"),
    app = express(),
    DIR = process.argv[2] || __dirname + "/../",
    PORT = process.argv[3] || 1234,
